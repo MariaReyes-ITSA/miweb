@@ -50,9 +50,11 @@ a:hover{
 }
 
 .image {
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
     cursor: pointer;
 }
 
@@ -88,3 +90,11 @@ a:hover{
 #close-btn:hover {
     background-color: darkred;
 }
+
+header
+ {
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(204,204,204,0.31);
+}
+
